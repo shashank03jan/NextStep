@@ -9,7 +9,6 @@ namespace LearnCSharp
     {
         public static void CallMe()
         {
-
             //simple calling base class method
             Console.WriteLine(" creating base class instance and then calling methods. all base class methods are accessible");
             Class1Base objbase = new Class1Base();
@@ -40,31 +39,32 @@ namespace LearnCSharp
             Console.WriteLine("-------------------------------------------------------------------------");
 
         }
-    }
-    class Class1Base
-    {
-        public void Method1Base()
+        class Class1Base
         {
-            Console.WriteLine("Method1Base..");
+            public void Method1Base()
+            {
+                Console.WriteLine("Method1Base..");
+            }
+            public void Method2Base()
+            {
+                Console.WriteLine("Method2Base..");
+            }
         }
-        public void Method2Base()
+        class Class1Derived : Class1Base
         {
-            Console.WriteLine("Method2Base..");
-        }
-    }
-    class Class1Derived : Class1Base
-    {
-        public void Method3Derived()
-        {
-            Console.WriteLine("Method3Derived..");
+            public void Method3Derived()
+            {
+                Console.WriteLine("Method3Derived..");
+            }
+
+            public void Method2Base()
+            {
+                Console.WriteLine("Method2Base..");
+            }
+
         }
 
-        public void Method2Base()
-        {
-            Console.WriteLine("Method2Base..");
-        }
-
     }
-
+   
 
 }

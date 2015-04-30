@@ -14,23 +14,25 @@ namespace LearnCSharp
             Class1 obj21 = new Class1();
             Console.WriteLine("-----------------------------------------------------------------------------------------------\n");
         }
-    }
 
-    class Class1 : IMyInterface
-    {
-
-        public void m1()
+        class Class1 : IMyInterface
         {
-            Console.WriteLine("m1");
+
+            public void m1()
+            {
+                Console.WriteLine("m1");
+            }
+            public void m2()
+            {
+                Console.WriteLine("m2");
+            }
         }
-        public void m2()
+
+        interface IMyInterface
         {
-            Console.WriteLine("m2");
+            void m1();
         }
     }
 
-    interface IMyInterface
-    {
-        void m1();
-    }
+   
 }

@@ -7,14 +7,12 @@ namespace LearnCSharp
 {
     class GCReference
     {
-        
-
         public static void Callme()
         {
-            MyClass obj1 = new MyClass();
+            MyClassX obj1 = new MyClassX();
             obj1.value = 3;
 
-            MyClass obj2 = new MyClass();
+            MyClassX obj2 = new MyClassX();
             obj2 = obj1;
 
             Console.WriteLine("If you chang value of variable/property from one instance then it will automatically reflect in another instance");
@@ -29,19 +27,17 @@ namespace LearnCSharp
             Console.WriteLine(obj2.value);
 
             Console.WriteLine("you can not/NEVER call static method using instance so i am calling it via class name");
-            MyClass.myint = 9;
-            Console.WriteLine(MyClass.myint);
+            MyClassX.myint = 9;
+            Console.WriteLine(MyClassX.myint);
             Console.WriteLine("-----------------------------------------------------------------------------------------------\n");
         }
 
-    }
+        class MyClassX
+        {
+            public int value;
+            public static int myint;
 
-    class MyClass
-    {
-        public int value;
-        public static int myint;
-
+        }
     }
-    
 
 }

@@ -25,23 +25,36 @@ namespace LearnCSharp
             else Console.WriteLine(false);
 
 
-            if (s==p)
+            if (s == p)
                 Console.WriteLine(true);
             else Console.WriteLine(false);
-        }
-       
-    }
-    class MyClass2
-    {
-        private string Sname;
-        private string address;
 
-        public MyClass2(string name, string add)
-        {
-            Sname = name;
-            address = add;
+            //check if ToString() works on null
+            string str = null;
+            str = Convert.ToString(str);
+
+
+            string ss = "hello";
+            string ts = "hello";
+            if (ss == ts)
+                Console.WriteLine(true);
+            else Console.WriteLine(false);
+            
         }
-      
+        class MyClass2
+        {
+            private string Sname;
+            private string address;
+
+            public MyClass2(string name, string add)
+            {
+                Sname = name;
+                address = add;
+            }
+
+        }
+
     }
+   
 }
 

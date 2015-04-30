@@ -1,0 +1,4 @@
+c:\users\shekhar\documents\visual studio 2010\Projects\WcfServiceEmployee\WcfServiceEmployee\bin\WcfServiceEmployee.dll
+c:\users\shekhar\documents\visual studio 2010\Projects\WcfServiceEmployee\WcfServiceEmployee\bin\WcfServiceEmployee.pdb
+c:\users\shekhar\documents\visual studio 2010\Projects\WcfServiceEmployee\WcfServiceEmployee\obj\Debug\WcfServiceEmployee.dll
+c:\users\shekhar\documents\visual studio 2010\Projects\WcfServiceEmployee\WcfServiceEmployee\obj\Debug\WcfServiceEmployee.pdb

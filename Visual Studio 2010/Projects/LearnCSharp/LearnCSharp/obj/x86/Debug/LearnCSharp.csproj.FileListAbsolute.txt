@@ -5,3 +5,8 @@ D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debu
 D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\Database1.sdf
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.exe
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.pdb
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.csprojResolveAssemblyReference.cache
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\Database1.sdf
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.exe.config
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.exe
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.pdb

@@ -8,25 +8,18 @@ namespace LearnCSharp
     
     class Program
     {
-        
         static void Main(string[] args)
         {
+            //ComprareObjects.CallMe();
+            //GCReference.Callme();
+            //Linq.CallMe();
+            //InheritenceExample.CallMe();
+            //OverrideExample.CallMe();
+            DelegateExample.CallMe();
 
-            ComprareObjects.CallMe();
-
-
-            GCReference.Callme();
-            Linq.CallMe();
-            InheritenceExample.CallMe();
-
-
-          
             Console.ReadKey();
 
         }
     }
-
-    
-   
    
 }
