@@ -19,7 +19,7 @@ namespace LearnCSharp
 
             string s = null;
             string p = null;
-            // if we check two null value using equals then null pointer exception
+            // if we check two null value using equals then null pointer exception will raise. see below code
             if (s.Equals(p))
                 Console.WriteLine(true);
             else Console.WriteLine(false);

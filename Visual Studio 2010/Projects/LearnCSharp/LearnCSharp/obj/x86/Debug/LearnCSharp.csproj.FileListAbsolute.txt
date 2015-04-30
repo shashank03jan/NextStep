@@ -3,3 +3,5 @@ D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\Le
 D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.exe
 D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.pdb
 D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\Database1.sdf
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.exe
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.pdb
