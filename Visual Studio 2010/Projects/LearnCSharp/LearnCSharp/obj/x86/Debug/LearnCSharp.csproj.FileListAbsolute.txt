@@ -1,0 +1,5 @@
+D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.exe
+D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.pdb
+D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.exe
+D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.pdb
+D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\Database1.sdf
