@@ -45,7 +45,7 @@ namespace LearnCSharp
             {
                 Console.WriteLine("Method1Base..");
             }
-            public void Method2Base()
+            public  void Method2Base()
             {
                 Console.WriteLine("Method2Base..");
             }
