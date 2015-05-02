@@ -8,8 +8,10 @@ namespace LearnCSharp
     
     class Program
     {
+       
         static void Main(string[] args)
         {
+           
             //ComprareObjects.CallMe();
             //GCReference.Callme();
             //Linq.CallMe();

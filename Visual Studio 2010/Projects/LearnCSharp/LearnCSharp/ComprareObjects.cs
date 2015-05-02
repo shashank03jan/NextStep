@@ -16,7 +16,7 @@ namespace LearnCSharp
             if (obj1.Equals(obj2)) Console.WriteLine(true); else Console.WriteLine(false);
             if (obj2.Equals(obj3)) Console.WriteLine(true); else Console.WriteLine(false);
 
-
+           
             string s = null;
             string p = null;
             // if we check two null value using equals then null pointer exception will raise. see below code
