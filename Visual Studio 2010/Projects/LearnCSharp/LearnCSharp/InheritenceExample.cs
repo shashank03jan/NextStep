@@ -56,7 +56,7 @@ namespace LearnCSharp
             {
                 Console.WriteLine("Method3Derived..");
             }
-
+            //see it is hiding base class method and ask to use new keyword
             public void Method2Base()
             {
                 Console.WriteLine("Method2Base..");

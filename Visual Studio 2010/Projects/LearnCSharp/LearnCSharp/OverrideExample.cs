@@ -34,9 +34,9 @@ namespace LearnCSharp
                     base.number = value;
                 }
             }
-            int l;
+            
             public new string EmpNumber { get; set; }// this is called shadowing , so difference bewtween shadowing and overriding is 
-            //overiding does not override type like int but shadow does
+            //overiding does not override type like int but shadow does 
         }
     }
 

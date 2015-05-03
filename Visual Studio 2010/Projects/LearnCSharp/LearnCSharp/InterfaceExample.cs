@@ -33,6 +33,24 @@ namespace LearnCSharp
             void m1();
         }
     }
+    interface IEmployee
+    {
+        void m1();
+    }
+    class e1 : IEmployee
+    {
+        public void m1()
+        {
+            throw new NotImplementedException();
+        }
+    }
+    class e2 : e1, IEmployee
+    {
+        public void m1()
+        {
+            throw new NotImplementedException();
+        }
+    }
 
    
 }
