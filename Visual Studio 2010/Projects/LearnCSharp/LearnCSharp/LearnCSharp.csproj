@@ -64,6 +64,7 @@
     <Compile Include="AbstractClassConcepts.cs" />
     <Compile Include="ComprareObjects.cs" />
     <Compile Include="DelegateExample.cs" />
+    <Compile Include="Event-Delegate.cs" />
     <Compile Include="InheritenceOverloading.cs" />
     <Compile Include="InheritenceOverriding.cs" />
     <Compile Include="NullComparsion.cs" />

@@ -23,11 +23,10 @@ namespace LearnCSharp
             //Parse_TryParse.CallMe();
             //NullComparsion.CallMe();
 
+            //ServiceReference1.EmployeeClient obj = new ServiceReference1.EmployeeClient();
+            //Console.WriteLine(obj.GetValue());
 
-            ServiceReference1.EmployeeClient obj = new ServiceReference1.EmployeeClient();
-            
-            Console.WriteLine(obj.GetValue());
-
+            Event_Delegate.CallMe();
             Console.ReadKey();
 
 
