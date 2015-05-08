@@ -10,3 +10,5 @@ D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.exe.config
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.exe
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.pdb
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.BackgroundWorkerClassExampleUsingWinForm.resources
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.csproj.GenerateResource.Cache

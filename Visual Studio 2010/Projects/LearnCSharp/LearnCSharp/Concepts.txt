@@ -1,0 +1,14 @@
+﻿many ways to calling methods Asynchroneously
+1. delegate.begininvoke
+2. event
+3. task
+
+
+event:
+Using the event-based asynchronous pattern only requires adding an event handler to receive a notification of the response -- and the resulting event is raised on the user interface thread automatically
+
+
+how to prevent UI from freezing.
+1. backgroundworker class
+2. dispatcher
+3. calling methods asynchorneously

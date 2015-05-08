@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LearnCSharp
+namespace LearnCSharp4
 {
     //see how we can avoid implementation of an interface method in derive class using abstract
    abstract  class AbstractClassConcepts : IMyInterface 
