@@ -52,8 +52,10 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -62,6 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractClassConcepts.cs" />
+    <Compile Include="BackgroundWorkerClassExampleUsingWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackgroundWorkerClassExampleUsingWinForm.Designer.cs">
+      <DependentUpon>BackgroundWorkerClassExampleUsingWinForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ComprareObjects.cs" />
     <Compile Include="DelegateExample.cs" />
     <Compile Include="Event-Delegate.cs" />
@@ -90,6 +98,7 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="StaticConcept.cs" />
+    <Compile Include="ThreadingExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -122,6 +131,7 @@
     <Content Include="Database1.sdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Concepts.txt" />
     <None Include="Service References\ServiceReference1\LearnCSharp.ServiceReference1.Employee.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -155,6 +165,11 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BackgroundWorkerClassExampleUsingWinForm.resx">
+      <DependentUpon>BackgroundWorkerClassExampleUsingWinForm.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
