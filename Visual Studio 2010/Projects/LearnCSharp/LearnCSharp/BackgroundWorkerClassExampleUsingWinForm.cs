@@ -33,6 +33,7 @@ namespace LearnCSharp
             backgroundWorker1.RunWorkerCompleted += new RunWorkerCompletedEventHandler(backgroundWorker1_RunWorkerCompleted);
             backgroundWorker1.ProgressChanged += new ProgressChangedEventHandler(backgroundWorker1_ProgressChanged);
             backgroundWorker1.WorkerReportsProgress = true;
+            
         }
 
         void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
@@ -45,6 +46,7 @@ namespace LearnCSharp
             textBox3.Text = "Completed";
         }
 
+        // code written under this method will be run on diff thread asyncroneoulsy
         void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
             
@@ -53,6 +55,7 @@ namespace LearnCSharp
                 System.Threading.Thread.Sleep(1000);
                 backgroundWorker1.ReportProgress(i * 10);
             }
+            textBox1.Text = "Running";// see, we can't access UI controls from different thread
 
            
         }
@@ -70,5 +73,12 @@ namespace LearnCSharp
                 backgroundWorker1.RunWorkerAsync();
             }
         }
+
+        public static void CallMe()
+        {
+            BackgroundWorkerClassExampleUsingWinForm f = new BackgroundWorkerClassExampleUsingWinForm();
+            f.ShowDialog();
+        }
+
     }
 }

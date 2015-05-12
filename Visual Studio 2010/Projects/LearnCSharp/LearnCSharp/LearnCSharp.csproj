@@ -73,6 +73,7 @@
     <Compile Include="ComprareObjects.cs" />
     <Compile Include="DelegateExample.cs" />
     <Compile Include="Event-Delegate.cs" />
+    <Compile Include="ExtensionMethodExample.cs" />
     <Compile Include="InheritenceOverloading.cs" />
     <Compile Include="InheritenceOverriding.cs" />
     <Compile Include="NullComparsion.cs" />
@@ -91,6 +92,7 @@
     </Compile>
     <Compile Include="ReadOnlyConstants.cs" />
     <Compile Include="Sealed-Override.cs" />
+    <Compile Include="SemaphoreMutexEx.cs" />
     <Compile Include="Service References\ServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
