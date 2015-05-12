@@ -11,40 +11,6 @@ namespace LearnCSharp
 
         static void Main(string[] args)
         {
-
-            BackgroundWorkerClassExampleUsingWinForm f = new BackgroundWorkerClassExampleUsingWinForm();
-            f.ShowDialog();
-            return;
-
-            Semaphore s = null;
-            try
-            {
-                s = Semaphore.OpenExisting("SemaphoreExample");
-            }
-            catch (Exception)
-            {
-
-                s = new Semaphore(2, 2, "SemaphoreExample");
-            }
-
-            Console.WriteLine("Acquiring");
-            s.WaitOne();//as it says it block the the current thread untill current thread is ruuning. so as i have given count 2, even though  it will allow 2 thread to
-            //continue to next line. but as soon as 3rd thread trying to acquire lock on underline code. s.waitone will not allow.
-            Console.WriteLine("thread acquired");
-            Console.ReadLine();
-            s.Release();
-           
-            return;
-
-            using (var v1 = new Mutex(false, "LearnCSharpMutex")) 
-            {
-
-                if (!v1.WaitOne(1000,false))
-                {
-                    Console.WriteLine("Already an isntance running..");
-                    return;
-                }
-
                 //ComprareObjects.CallMe();
                 //GCReference.Callme();
                 //Linq.CallMe();
@@ -60,12 +26,14 @@ namespace LearnCSharp
                 //Console.WriteLine(obj.GetValue());
 
                 //Event_Delegate.CallMe();
-                LearnCSharpThreading.ThreadingExample.CallMe();
+
+                //LearnCSharpThreading.ThreadingExample.CallMe();
+                //BackgroundWorkerClassExampleUsingWinForm.CallMe();
+            SemaphoreMutexEx.CallMe();
 
                 Console.WriteLine("press any key to continue....");
                 Console.ReadKey();
-            };
-
+          
 
 
         }

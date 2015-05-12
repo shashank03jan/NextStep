@@ -38,7 +38,7 @@ namespace LearnCSharpThreading
             
             public void RunOnThreadPooling()
             {
-                //this will create new thread or get an existing thread from threadpool and run method on it
+                //this will create new thread or get an existing thread from threadpool and run method on it. see , we dont need to start like thread.start
                 ThreadPool.QueueUserWorkItem(new WaitCallback(ThreadPoolMethod));
 
             }

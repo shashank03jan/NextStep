@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-<<<<<<< HEAD
-namespace LearnCSharp1
-=======
+
 namespace LearnCSharp4
->>>>>>> origin/master
+
 {
     //see how we can avoid implementation of an interface method in derive class using abstract
    abstract  class AbstractClassConcepts : IMyInterface 

@@ -92,6 +92,7 @@
     </Compile>
     <Compile Include="ReadOnlyConstants.cs" />
     <Compile Include="Sealed-Override.cs" />
+    <Compile Include="SemaphoreMutexEx.cs" />
     <Compile Include="Service References\ServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
