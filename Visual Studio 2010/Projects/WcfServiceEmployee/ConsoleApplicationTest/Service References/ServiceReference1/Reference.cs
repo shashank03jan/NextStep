@@ -139,7 +139,7 @@ namespace ConsoleApplicationTest.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IEmployee")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IEmployee", CallbackContract=typeof(ConsoleApplicationTest.ServiceReference1.IEmployeeCallback))]
     public interface IEmployee {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployee/InsertEmployee", ReplyAction="http://tempuri.org/IEmployee/InsertEmployeeResponse")]
@@ -156,6 +156,16 @@ namespace ConsoleApplicationTest.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployee/GetValue", ReplyAction="http://tempuri.org/IEmployee/GetValueResponse")]
         int GetValue();
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IEmployee/FireAndTrack")]
+        void FireAndTrack();
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public interface IEmployeeCallback {
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IEmployee/CallingClient")]
+        void CallingClient();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -164,25 +174,26 @@ namespace ConsoleApplicationTest.ServiceReference1 {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class EmployeeClient : System.ServiceModel.ClientBase<ConsoleApplicationTest.ServiceReference1.IEmployee>, ConsoleApplicationTest.ServiceReference1.IEmployee {
+    public partial class EmployeeClient : System.ServiceModel.DuplexClientBase<ConsoleApplicationTest.ServiceReference1.IEmployee>, ConsoleApplicationTest.ServiceReference1.IEmployee {
         
-        public EmployeeClient() {
+        public EmployeeClient(System.ServiceModel.InstanceContext callbackInstance) : 
+                base(callbackInstance) {
         }
         
-        public EmployeeClient(string endpointConfigurationName) : 
-                base(endpointConfigurationName) {
+        public EmployeeClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName) : 
+                base(callbackInstance, endpointConfigurationName) {
         }
         
-        public EmployeeClient(string endpointConfigurationName, string remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+        public EmployeeClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName, string remoteAddress) : 
+                base(callbackInstance, endpointConfigurationName, remoteAddress) {
         }
         
-        public EmployeeClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+        public EmployeeClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(callbackInstance, endpointConfigurationName, remoteAddress) {
         }
         
-        public EmployeeClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(binding, remoteAddress) {
+        public EmployeeClient(System.ServiceModel.InstanceContext callbackInstance, System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(callbackInstance, binding, remoteAddress) {
         }
         
         public void InsertEmployee(ConsoleApplicationTest.ServiceReference1.Employee emp) {
@@ -203,6 +214,10 @@ namespace ConsoleApplicationTest.ServiceReference1 {
         
         public int GetValue() {
             return base.Channel.GetValue();
+        }
+        
+        public void FireAndTrack() {
+            base.Channel.FireAndTrack();
         }
     }
 }

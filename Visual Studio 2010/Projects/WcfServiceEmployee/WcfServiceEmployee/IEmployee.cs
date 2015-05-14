@@ -6,7 +6,7 @@ using System.ServiceModel;
 
 namespace WcfServiceEmployee
 {
-    [ServiceContract]
+    [ServiceContract(CallbackContract=typeof(IClientCallBackExample))]
     interface IEmployee
     {
         [OperationContract]
@@ -23,5 +23,14 @@ namespace WcfServiceEmployee
 
         [OperationContract]
         int GetValue();
+
+        [OperationContract(IsOneWay=true)]
+        void FireAndTrack();
+    }
+    [ServiceContract]
+    public interface IClientCallBackExample
+    {
+        [OperationContract(IsOneWay=true)]
+        void CallingClient();
     }
 }
