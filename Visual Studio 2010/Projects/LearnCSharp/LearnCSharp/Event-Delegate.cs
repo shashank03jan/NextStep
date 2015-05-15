@@ -19,8 +19,6 @@ namespace LearnCSharp
             //class2Obj.EmployeeInserted+=new Class2.EmployeeInsertionEventHandler(class2Obj_EmployeeInserted);
             class2Obj.EmployeeInserted += class2Obj_EmployeeInserted;
             class2Obj.RaiseEvent();
-
-
         }
         //see this code. i have given this a static. because i am calling this inside a static method. so that means subsciber method can also be like this.
         static void class2Obj_EmployeeInserted(object source, EventArgs args)
