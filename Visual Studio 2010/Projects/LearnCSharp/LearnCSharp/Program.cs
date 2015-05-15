@@ -27,8 +27,8 @@ namespace LearnCSharp
             //NullComparsion.CallMe();
 
 
-            CallWcfServiceExample.CallMe();
-
+            //CallWcfServiceExample.CallMe();
+            DelegateBeginInvoke.CallMe();
 
             //Event_Delegate.CallMe();
             //LearnCSharpThreading.ThreadingExample.CallMe();

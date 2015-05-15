@@ -73,6 +73,12 @@
     <Compile Include="CallWcfServiceExample.cs" />
     <Compile Include="ComprareObjects.cs" />
     <Compile Include="DelegateAnonymousLambadaClosures.cs" />
+    <Compile Include="DelegateBeginInvoke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelegateBeginInvoke.Designer.cs">
+      <DependentUpon>DelegateBeginInvoke.cs</DependentUpon>
+    </Compile>
     <Compile Include="DelegateExample.cs" />
     <Compile Include="Event-Delegate.cs" />
     <Compile Include="ExtensionMethodExample.cs" />
@@ -173,6 +179,9 @@
   <ItemGroup>
     <EmbeddedResource Include="BackgroundWorkerClassExampleUsingWinForm.resx">
       <DependentUpon>BackgroundWorkerClassExampleUsingWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelegateBeginInvoke.resx">
+      <DependentUpon>DelegateBeginInvoke.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
