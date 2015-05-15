@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using System.ServiceModel;
 namespace LearnCSharp
 {
 
@@ -11,32 +12,38 @@ namespace LearnCSharp
 
         static void Main(string[] args)
         {
-                //ComprareObjects.CallMe();
-                //GCReference.Callme();
-                //Linq.CallMe();
-                //InheritenceExample.CallMe();
-                //OverrideExample.CallMe();
-                //DelegateExample.CallMe();
-                //InheritenceOverloading.CallMe();
-                //InheritenceOverriding.CallMe();
-                //Parse_TryParse.CallMe();
-                //NullComparsion.CallMe();
 
-                //ServiceReference1.EmployeeClient obj = new ServiceReference1.EmployeeClient();
-                //Console.WriteLine(obj.GetValue());
+            //IQueryable
 
-                //Event_Delegate.CallMe();
+            //ComprareObjects.CallMe();
+            //GCReference.Callme();
+            //Linq.CallMe();
+            //InheritenceExample.CallMe();
+            //OverrideExample.CallMe();
+            //DelegateExample.CallMe();
+            //InheritenceOverloading.CallMe();
+            //InheritenceOverriding.CallMe();
+            //Parse_TryParse.CallMe();
+            //NullComparsion.CallMe();
 
-                //LearnCSharpThreading.ThreadingExample.CallMe();
-                //BackgroundWorkerClassExampleUsingWinForm.CallMe();
-            SemaphoreMutexEx.CallMe();
 
-                Console.WriteLine("press any key to continue....");
-                Console.ReadKey();
-          
+            CallWcfServiceExample.CallMe();
+
+
+            //Event_Delegate.CallMe();
+            //LearnCSharpThreading.ThreadingExample.CallMe();
+            //BackgroundWorkerClassExampleUsingWinForm.CallMe();
+            //SemaphoreMutexEx.CallMe();
+            //DelegateAnonymousLambadaClosures.CallMe();
+
+            Console.WriteLine("press any key to continue....");
+            Console.ReadKey();
+
 
 
         }
     }
+   
+
 
 }

@@ -11,7 +11,7 @@ namespace LearnCSharp
         public static void CallMe()
         {
             Class1 obj = new Class1();
-            //obj.SemaphoreMethod();
+            obj.SemaphoreMethod();
             obj.MutexMethod();
         }
 

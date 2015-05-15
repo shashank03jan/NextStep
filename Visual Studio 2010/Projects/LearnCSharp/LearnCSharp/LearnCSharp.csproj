@@ -70,10 +70,13 @@
     <Compile Include="BackgroundWorkerClassExampleUsingWinForm.Designer.cs">
       <DependentUpon>BackgroundWorkerClassExampleUsingWinForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CallWcfServiceExample.cs" />
     <Compile Include="ComprareObjects.cs" />
+    <Compile Include="DelegateAnonymousLambadaClosures.cs" />
     <Compile Include="DelegateExample.cs" />
     <Compile Include="Event-Delegate.cs" />
     <Compile Include="ExtensionMethodExample.cs" />
+    <Compile Include="IEnumerableVsIEnumeratorVsIQuerableExample.cs" />
     <Compile Include="InheritenceOverloading.cs" />
     <Compile Include="InheritenceOverriding.cs" />
     <Compile Include="NullComparsion.cs" />
