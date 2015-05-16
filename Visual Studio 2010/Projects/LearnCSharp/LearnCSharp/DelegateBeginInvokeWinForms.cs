@@ -10,9 +10,9 @@ using System.Threading;
 
 namespace LearnCSharp
 {
-    public partial class DelegateBeginInvoke : Form
+    public partial class DelegateBeginInvokeWinForms : Form
     {
-        public DelegateBeginInvoke()
+        public DelegateBeginInvokeWinForms()
         {
             InitializeComponent();
         }
@@ -30,7 +30,7 @@ namespace LearnCSharp
 
         public static void CallMe()
         {
-            DelegateBeginInvoke fo = new DelegateBeginInvoke();
+            DelegateBeginInvokeWinForms fo = new DelegateBeginInvokeWinForms();
             fo.ShowDialog();
         }
         static void CallbackMethod(IAsyncResult ar)

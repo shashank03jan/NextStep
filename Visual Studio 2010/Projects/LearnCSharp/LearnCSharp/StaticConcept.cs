@@ -27,5 +27,12 @@ namespace LearnCSharp
         public static void method1(string str)
         {
         }
+
+        //see inherting is not possible, both as derive as well as base static class
+        //public static class x : y { }
+        //public class y { }
+
+        //public  class x1 : y1 { }
+        //public static class y1 { }
     }
 }

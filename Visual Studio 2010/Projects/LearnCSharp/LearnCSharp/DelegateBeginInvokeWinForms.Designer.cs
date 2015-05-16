@@ -1,6 +1,6 @@
 ﻿namespace LearnCSharp
 {
-    partial class DelegateBeginInvoke
+    partial class DelegateBeginInvokeWinForms
     {
         /// <summary>
         /// Required designer variable.
