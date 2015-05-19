@@ -3,13 +3,12 @@ D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\Le
 D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.exe
 D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.pdb
 D:\VisualStudio\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\Database1.sdf
-D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.exe
-D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.pdb
-D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.csprojResolveAssemblyReference.cache
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\Database1.sdf
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.exe.config
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.exe
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\LearnCSharp.pdb
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.BackgroundWorkerClassExampleUsingWinForm.resources
-D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.csproj.GenerateResource.Cache
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.DelegateBeginInvokeWinForms.resources
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.csproj.GenerateResource.Cache
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.exe
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.pdb

@@ -11,6 +11,14 @@ namespace LearnCSharp
         {
 
             {
+
+                Class1Base b = new Class1Base();
+                b.Method1Base();
+                b = new Class1Derived();
+                b.Method1Base();
+                b = new Class2Derived();
+                b.Method1Base();
+
                 //simple calling base class method
                 Console.WriteLine(" creating base class instance and then calling methods. all base class methods are accessible");
                 Class1Base objbase = new Class1Base();
@@ -95,7 +103,7 @@ namespace LearnCSharp
         class Class2Derived : Class1Derived
         {
             //see it is hiding base class method and ask to use new keyword
-            public  override void Method1Base()
+            public  virtual  new void Method1Base()
             {
                 Console.WriteLine("i am in derived..Method1Base..");
             }
