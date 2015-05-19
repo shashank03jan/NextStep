@@ -7,5 +7,24 @@ namespace LearnCSharp
 {
     class OverLoadingWithGeneric
     {
+        public static void CallMe()
+        {
+            class1Base1<int> b = new class1Base1<int>();
+            b.method1(100);
+        }
+
+         class class1Base1<t>
+        {
+            public int method1(int i)
+            {
+                return i;
+            }
+
+            public t method1(t i)
+            {
+                return i;
+            }
+        }
+        
     }
 }

@@ -87,6 +87,7 @@
     <Compile Include="InheritenceOverloading.cs" />
     <Compile Include="InheritenceOverriding.cs" />
     <Compile Include="NullComparsion.cs" />
+    <Compile Include="OverLoadingWithGeneric.cs" />
     <Compile Include="OverrideExample.cs" />
     <Compile Include="GCReference.cs" />
     <Compile Include="InheritenceExample.cs" />

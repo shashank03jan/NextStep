@@ -23,13 +23,13 @@ namespace LearnCSharp
             //OverrideExample.CallMe();
             //DelegateExample.CallMe();
             //InheritenceOverloading.CallMe();
-            InheritenceOverriding.CallMe();
+            //InheritenceOverriding.CallMe();
             //Parse_TryParse.CallMe();
             //NullComparsion.CallMe();
 
             //IAsyncExample.CallMe();
-           
 
+            OverLoadingWithGeneric.CallMe();
             //Int32 i = new Int32();
 
             //Dictionary<int, int> d;
