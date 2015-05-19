@@ -23,11 +23,11 @@ namespace LearnCSharp
             //OverrideExample.CallMe();
             //DelegateExample.CallMe();
             //InheritenceOverloading.CallMe();
-            //InheritenceOverriding.CallMe();
+            InheritenceOverriding.CallMe();
             //Parse_TryParse.CallMe();
             //NullComparsion.CallMe();
 
-            IAsyncExample.CallMe();
+            //IAsyncExample.CallMe();
            
 
             //Int32 i = new Int32();
