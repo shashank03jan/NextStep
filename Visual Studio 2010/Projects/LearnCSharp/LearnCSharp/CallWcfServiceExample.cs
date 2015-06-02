@@ -15,10 +15,10 @@ namespace LearnCSharp
             //Console.WriteLine(obj.GetValue());
 
 
-            IAmCalledByServiceViaCallback v = new IAmCalledByServiceViaCallback();
-            InstanceContext icon = new InstanceContext(v);
-            ServiceReference1.EmployeeClient obj = new ServiceReference1.EmployeeClient(icon);
-            obj.FireAndTrack();
+            //IAmCalledByServiceViaCallback v = new IAmCalledByServiceViaCallback();
+            //InstanceContext icon = new InstanceContext(v);
+            ServiceReference1.EmployeeClient obj = new ServiceReference1.();
+            //obj.FireAndTrack();
 
             serviceCall();
 
@@ -28,22 +28,22 @@ namespace LearnCSharp
 
         private static void serviceCall()
         {
-            //ServiceReference1.EmployeeClient obj = new ServiceReference1.EmployeeClient();
-            //ServiceReference1.Employee emp = new ServiceReference1.Employee();
-            //emp.EmployeeId = 1;
-            //emp.EmployeeName = "shashank";
-            //emp.EmployeeCode = 1001;
-            //emp.DeparmentName = "Commerce";
-            //emp.DeparmentId = 9001;
-            //emp.EmployeeAddress = "Gorakhpur";
-            //obj.InsertEmployee(emp);
+            ServiceReference1.EmployeeClient obj = new ServiceReference1.EmployeeClient();
+            ServiceReference1.Employee emp = new ServiceReference1.Employee();
+            emp.EmployeeId = 1;
+            emp.EmployeeName = "shashank";
+            emp.EmployeeCode = 1001;
+            emp.DeparmentName = "Commerce";
+            emp.DeparmentId = 9001;
+            emp.EmployeeAddress = "Gorakhpur";
+            obj.InsertEmployee(emp);
 
-            //Console.WriteLine(obj.GetValue());
-            //Console.ReadKey();
+            Console.WriteLine(obj.GetValue());
+            Console.ReadKey();
         }
         
     }
-    class IAmCalledByServiceViaCallback : ServiceReference1.IEmployeeCallback
+    class IAmCalledByServiceViaCallback : ServiceReference1.
     {
         public void CallingClient()
         {

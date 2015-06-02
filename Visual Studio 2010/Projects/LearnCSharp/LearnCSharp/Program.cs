@@ -29,16 +29,16 @@ namespace LearnCSharp
 
             //IAsyncExample.CallMe();
 
-            OverLoadingWithGeneric.CallMe();
+            //OverLoadingWithGeneric.CallMe();
             //Int32 i = new Int32();
 
             //Dictionary<int, int> d;
             //Array a;
             //ArrayList b;
             //Console.WriteLine((ReverseString_Rec("shashank")));
-            
 
-            //CallWcfServiceExample.CallMe();
+
+            CallWcfServiceExample.CallMe();
             //DelegateBeginInvokeWinForms.CallMe();
 
             //Event_Delegate.CallMe();
@@ -48,10 +48,13 @@ namespace LearnCSharp
             //DelegateAnonymousLambadaClosures.CallMe();
 
             Console.WriteLine("press any key to continue....");
-            Console.ReadKey();
+            //Console.ReadKey();
 
             
         }
+
+        
+
         public static string ReverseString_Rec(string str)
         {
             if (str.Length <= 1)

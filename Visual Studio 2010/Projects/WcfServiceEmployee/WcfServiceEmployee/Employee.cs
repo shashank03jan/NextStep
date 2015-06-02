@@ -98,11 +98,6 @@ namespace WcfServiceEmployee
         }
 
 
-        public void FireAndTrack()
-        {
-            Console.WriteLine("i am service method and called by client via duplex.");
-            Thread.Sleep(5000);
-            OperationContext.Current.GetCallbackChannel<IClientCallBackExample>().CallingClient();
-        }
+        
     }
 }

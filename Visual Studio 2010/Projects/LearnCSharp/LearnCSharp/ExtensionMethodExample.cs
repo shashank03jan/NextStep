@@ -14,7 +14,6 @@ namespace LearnCSharp2
             obj.CalculateSalary();
             obj.CalCulateTax();
         }
-       
     }
     class MyClass
     {
@@ -24,7 +23,7 @@ namespace LearnCSharp2
             Console.WriteLine("this is my salary");
         }
     }
-    static class MyExtensionMethod
+    static class MyExtensionMethod//extension method must be defined in nongeneric static class
     {
         public static void CalCulateTax(this MyClass cl)
         {

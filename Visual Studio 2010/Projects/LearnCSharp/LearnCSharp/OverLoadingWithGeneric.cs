@@ -17,11 +17,13 @@ namespace LearnCSharp
         {
             public int method1(int i)
             {
+                Console.WriteLine(i);
                 return i;
             }
 
             public t method1(t i)
             {
+                Console.WriteLine(i);
                 return i;
             }
         }

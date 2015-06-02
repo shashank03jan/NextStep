@@ -63,6 +63,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICallbackExampleDuplex.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="IEmployee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
