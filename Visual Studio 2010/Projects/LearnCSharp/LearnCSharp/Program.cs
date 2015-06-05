@@ -10,10 +10,20 @@ namespace LearnCSharp
 
     class Program
     {
-
+        public static void GetEmployee()
+        {
+            LinqToSQLExampleDataContext myDB = new LinqToSQLExampleDataContext();
+            var userResults = from u in myDB.Employees
+                              select u.EmployeeName;
+            foreach (string str in userResults)
+            {
+                Console.WriteLine(str);
+            }
+            //return Enumerable.Count(userResults) > 0;
+        }
         static void Main(string[] args)
         {
-
+            GetEmployee();
             //IQueryable
 
             //ComprareObjects.CallMe();
