@@ -13,3 +13,5 @@ D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.exe
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.pdb
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\obj\x86\Debug\LearnCSharp.csprojResolveAssemblyReference.cache
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\WcfServiceEmployee.dll
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\LearnCSharp\LearnCSharp\bin\Debug\WcfServiceEmployee.pdb

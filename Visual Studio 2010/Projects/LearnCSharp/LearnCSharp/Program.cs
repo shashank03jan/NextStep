@@ -23,6 +23,12 @@ namespace LearnCSharp
         }
         static void Main(string[] args)
         {
+
+            example e = new example();
+            Console.WriteLine(e.i);
+            see(e);
+            Console.WriteLine(e.i);
+            //return;
             GetEmployee();
             //IQueryable
 
@@ -31,7 +37,7 @@ namespace LearnCSharp
             //Linq.CallMe();
             //InheritenceExample.CallMe();
             //OverrideExample.CallMe();
-            //DelegateExample.CallMe();
+            DelegateExample.CallMe();
             //InheritenceOverloading.CallMe();
             //InheritenceOverriding.CallMe();
             //Parse_TryParse.CallMe();
@@ -47,8 +53,8 @@ namespace LearnCSharp
             //ArrayList b;
             //Console.WriteLine((ReverseString_Rec("shashank")));
 
-
-            CallWcfServiceExample.CallMe();
+            //
+            //CallWcfServiceExample.CallMe();
             //DelegateBeginInvokeWinForms.CallMe();
 
             //Event_Delegate.CallMe();
@@ -62,8 +68,12 @@ namespace LearnCSharp
 
             
         }
-
         
+        public static void see(example e1)
+        {
+            e1.i = 10;
+            e1 = null;
+        }
 
         public static string ReverseString_Rec(string str)
         {
@@ -75,7 +85,11 @@ namespace LearnCSharp
 
         
     }
-   
+
+    public class example
+    {
+        public int i = 1;
+    }
 
 
 }

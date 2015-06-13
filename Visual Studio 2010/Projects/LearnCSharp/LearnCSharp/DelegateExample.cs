@@ -13,11 +13,15 @@ namespace LearnCSharp
         {
             DelegateExample Classobj = new DelegateExample();
             Mydelegate delobj = new Mydelegate(Classobj.CalledViaDelegate);
-            delobj += Classobj.CalledViaDelegate;
-            delobj.Invoke();
+            //delobj += Classobj.CalledViaDelegate;
+            delobj.BeginInvoke(new AsyncCallback(CallbackMethod), null);
             delobj();
         }
 
+        public static void  CallbackMethod(IAsyncResult ir)
+        {
+            Console.WriteLine("i am call back");
+        }
         public void CalledViaDelegate()
         {
             Console.WriteLine("I am a method and i have been called via delegate");
