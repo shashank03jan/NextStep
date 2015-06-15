@@ -1,0 +1,7 @@
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfService1\WCFServiceSelfHost\bin\Debug\WCFServiceSelfHost.exe
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfService1\WCFServiceSelfHost\bin\Debug\WCFServiceSelfHost.pdb
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfService1\WCFServiceSelfHost\obj\x86\Debug\WCFServiceSelfHost.exe
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfService1\WCFServiceSelfHost\obj\x86\Debug\WCFServiceSelfHost.pdb
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfService1\WCFServiceSelfHost\bin\Debug\WcfServiceLibrary1.dll
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfService1\WCFServiceSelfHost\bin\Debug\WcfServiceLibrary1.pdb
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfService1\WCFServiceSelfHost\obj\x86\Debug\WCFServiceSelfHost.csprojResolveAssemblyReference.cache

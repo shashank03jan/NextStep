@@ -1,0 +1,6 @@
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojResolveAssemblyReference.cache

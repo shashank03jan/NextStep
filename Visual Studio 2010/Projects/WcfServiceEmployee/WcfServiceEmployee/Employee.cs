@@ -69,6 +69,18 @@ namespace WcfServiceEmployee
             SqlConnection con = new SqlConnection("Data Source=.\\SQLEXPRESS;AttachDbFilename=D:\\VisualStudio\\NextStep\\Visual Studio 2010\\Projects\\DatabaseFiles\\Employee.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True");
             con.Open();
             SqlCommand cmd = new SqlCommand("dbo.InsertEmployee_prc", con);
+            //cmd.Parameters.Add("@EmployeeName", emp.EmployeeName);
+            //cmd.Parameters.Add("@EmployeeAddress", emp.EmployeeAddress);
+            //cmd.Parameters.Add("@EmployeeCode", emp.EmployeeCode);
+            //cmd.Parameters.Add("@Departmentid", emp.DeparmentId);
+            //cmd.Parameters.Add("@DeparmentName", emp.DeparmentName);
+
+            cmd.Parameters.Add( emp.EmployeeName);
+            cmd.Parameters.Add(emp.EmployeeAddress);
+            cmd.Parameters.Add(emp.EmployeeCode);
+            cmd.Parameters.Add(emp.DeparmentId);
+            cmd.Parameters.Add(emp.DeparmentName);
+
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.ExecuteNonQuery();
             con.Close();

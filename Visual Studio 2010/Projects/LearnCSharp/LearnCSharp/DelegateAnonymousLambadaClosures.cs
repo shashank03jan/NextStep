@@ -24,6 +24,7 @@ namespace LearnCSharp
         }
         private static void AnonymousEx()
         {
+            
             int m = 7;
             Action<int> act = delegate(int j) { j++; }; //this is anonymous 
             Action act2 = ()=>m++;

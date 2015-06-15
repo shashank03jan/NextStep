@@ -1,0 +1,3 @@
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\ConsoleApplicationTest\bin\Debug\ConsoleApplicationTest.exe.config
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\ConsoleApplicationTest\obj\x86\Debug\ConsoleApplicationTest.exe
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\ConsoleApplicationTest\obj\x86\Debug\ConsoleApplicationTest.pdb
