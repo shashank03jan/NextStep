@@ -3,4 +3,3 @@ D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\WcfServi
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\WcfServiceLibraryEmployee\bin\Debug\WcfServiceLibraryEmployee.pdb
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\WcfServiceLibraryEmployee\obj\Debug\WcfServiceLibraryEmployee.dll
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\WcfServiceLibraryEmployee\obj\Debug\WcfServiceLibraryEmployee.pdb
-D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\WcfServiceLibraryEmployee\obj\Debug\WcfServiceLibraryEmployee.csprojResolveAssemblyReference.cache

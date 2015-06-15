@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FEC5F8E0-63D9-42CD-AAED-FC662817D724}</ProjectGuid>
+    <ProjectGuid>{5B4862F0-B9C8-4527-A4DD-1FF8E1A8B821}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WCFServiceSelfHost</RootNamespace>
@@ -48,9 +48,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WcfServiceLibrary1\WcfServiceLibrary1.csproj">
-      <Project>{EEA1A3A3-02E1-4171-BD53-078887DA65FF}</Project>
-      <Name>WcfServiceLibrary1</Name>
+    <ProjectReference Include="..\WcfServiceEmployee\WcfServiceEmployee.csproj">
+      <Project>{C3D05E2A-C491-4ED0-B36D-A6519DC40D00}</Project>
+      <Name>WcfServiceEmployee</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WcfServiceLibraryEmployee\WcfServiceLibraryEmployee.csproj">
+      <Project>{9E39F2C9-6EC4-4CA7-8DE9-458C1D0CC06E}</Project>
+      <Name>WcfServiceLibraryEmployee</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

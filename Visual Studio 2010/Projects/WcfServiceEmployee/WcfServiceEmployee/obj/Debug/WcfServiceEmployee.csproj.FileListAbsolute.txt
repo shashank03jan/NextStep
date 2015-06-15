@@ -6,4 +6,3 @@ D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\WcfServi
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\WcfServiceEmployee\bin\WcfServiceEmployee.pdb
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\WcfServiceEmployee\obj\Debug\WcfServiceEmployee.dll
 D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\WcfServiceEmployee\obj\Debug\WcfServiceEmployee.pdb
-D:\VisualStudio\NextStep\Visual Studio 2010\Projects\WcfServiceEmployee\WcfServiceEmployee\obj\Debug\WcfServiceEmployee.csprojResolveAssemblyReference.cache

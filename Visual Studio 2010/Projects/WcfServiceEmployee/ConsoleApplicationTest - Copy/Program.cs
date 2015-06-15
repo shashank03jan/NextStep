@@ -27,8 +27,9 @@ namespace ConsoleApplicationTest
             //Console.WriteLine(obj.GetValue());
             //Console.ReadKey();
 
-            ServiceHost host = new ServiceHost(typeof(WcfServiceLibraryEmployee.IService1));
+            ServiceHost host = new ServiceHost(typeof(WcfServiceLibraryEmployee.Service1));
             host.Open();
+            Console.WriteLine("service started...");
             Console.ReadLine();
             
 

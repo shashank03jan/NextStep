@@ -10,7 +10,7 @@ namespace WCFServiceSelfHost
     {
         static void Main(string[] args)
         {
-            ServiceHost host = new ServiceHost(typeof(WcfServiceLibrary1.IService1));
+            ServiceHost host = new ServiceHost(typeof(WcfServiceLibrary1.Service1));
             host.Open();
             Console.ReadLine();
         }
