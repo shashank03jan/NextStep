@@ -6,3 +6,11 @@ Visual Studio 2010/Projects/LearnCSharp/LearnCSharp/bin/Debug/LearnCSharp.pdb
 Visual Studio 2010/Projects/LearnCSharp/LearnCSharp/bin/Debug/LearnCSharp.exe
 Visual Studio 2010/Projects/LearnCSharp/LearnCSharp.suo
 Visual Studio 2010/Projects/LearnCSharp/LearnCSharp/bin/Debug/LearnCSharp.vshost.exe.manifest
+Visual Studio 2010/Projects/WcfServiceEmployee/WcfServiceEmployee.suo
+Visual Studio 2010/Projects/WcfService1/WCFServiceSelfHost/bin/Debug/WCFServiceSelfHost.exe
+Visual Studio 2010/Projects/WcfService1/WCFServiceSelfHost/obj/x86/Debug/WCFServiceSelfHost.exe
+Visual Studio 2010/Projects/WcfServiceEmployee/WcfServiceEmployee.suo
+Visual Studio 2010/Projects/WcfService1/WcfServiceLibrary1/bin/Debug/WcfServiceLibrary1.dll.config
+*.suo
+Visual Studio 2010/Projects/LearnCSharp/LearnCSharp.suo
+*.suo
