@@ -90,6 +90,7 @@
     <Compile Include="IEnumerableVsIEnumeratorVsIQuerableExample.cs" />
     <Compile Include="InheritenceOverloading.cs" />
     <Compile Include="InheritenceOverriding.cs" />
+    <Compile Include="InstanceNullifyQuestion.cs" />
     <Compile Include="LinqToSQLEx.cs" />
     <Compile Include="LinqToSQLExample.cs">
       <DependentUpon>LinqToSQLExample.dbml</DependentUpon>
@@ -115,6 +116,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="ReadOnlyConstants.cs" />
+    <Compile Include="ReverseString.cs" />
     <Compile Include="Sealed-Override.cs" />
     <Compile Include="SemaphoreMutexEx.cs" />
     <Compile Include="Service References\ServiceReference1\Reference.cs">

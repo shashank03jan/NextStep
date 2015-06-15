@@ -10,28 +10,12 @@ namespace LearnCSharp
 
     class Program
     {
-        public static void GetEmployee()
-        {
-            LinqToSQLExampleDataContext myDB = new LinqToSQLExampleDataContext();
-            var userResults = from u in myDB.Employees
-                              select u.EmployeeName;
-            foreach (string str in userResults)
-            {
-                Console.WriteLine(str);
-            }
-            //return Enumerable.Count(userResults) > 0;
-        }
+
         static void Main(string[] args)
         {
-
-            example e = new example();
-            Console.WriteLine(e.i);
-            see(e);
-            Console.WriteLine(e.i);
-            //return;
-            GetEmployee();
+            LinqToSQLEx.GetEmployee();
             //IQueryable
-
+            ReverseString.CallMe();
             //ComprareObjects.CallMe();
             //GCReference.Callme();
             //Linq.CallMe();
@@ -59,37 +43,14 @@ namespace LearnCSharp
 
             //Event_Delegate.CallMe();
             //LearnCSharpThreading.ThreadingExample.CallMe();
-            //BackgroundWorkerClassExampleUsingWinForm.CallMe();
+            BackgroundWorkerClassExampleUsingWinForm.CallMe();
             //SemaphoreMutexEx.CallMe();
             //DelegateAnonymousLambadaClosures.CallMe();
 
             Console.WriteLine("press any key to continue....");
             //Console.ReadKey();
-
-            
-        }
-        
-        public static void see(example e1)
-        {
-            e1.i = 10;
-            e1 = null;
         }
 
-        public static string ReverseString_Rec(string str)
-        {
-            if (str.Length <= 1)
-                return str;
-            else
-                return ReverseString_Rec(str.Substring(1)) + str[0];
-        }
-
-        
     }
-
-    public class example
-    {
-        public int i = 1;
-    }
-
 
 }

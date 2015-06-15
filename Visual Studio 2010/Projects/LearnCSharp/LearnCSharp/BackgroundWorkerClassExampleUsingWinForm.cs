@@ -39,27 +39,50 @@ namespace LearnCSharp
         void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
             textBox1.Text = "completed using thread"+e.ProgressPercentage.ToString();
+            Console.WriteLine("progress changed thread" + System.Threading.Thread.CurrentThread.ManagedThreadId);
         }
 
         void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             textBox3.Text = "Completed";
+            
         }
-
+        delegate void Mydelegate();
         // code written under this method will be run on diff thread asyncroneoulsy
         void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
             
             for (int i = 0; i < 10; i++)
             {
-                System.Threading.Thread.Sleep(1000);
+                System.Threading.Thread.Sleep(250);
                 backgroundWorker1.ReportProgress(i * 10);
+                Console.WriteLine("backgroundWorker1_DoWork" + System.Threading.Thread.CurrentThread.ManagedThreadId);
             }
-            textBox1.Text = "Running";// see, we can't access UI controls from different thread
+            //textBox1.Text = "Running";
+            //this is important. this begininvoke is different from delegate.begininvoke. because this is control.begininvoke
+            //this.begininvoke runs on same UI thread but asynchroneoulsy
+            this.BeginInvoke(new Mydelegate(method)); //running on same UI thread
 
+
+            //very important. currently we are on new thread. but this will execute on same UI thread. and calls after this also runs on same UI thread.
+            //but if we comment this code then call after this will not run on same UI thread but on new thread.
+            this.Invoke(new Mydelegate(method1)); //running on same UI Thread
+            //this.Invoke(new Mydelegate(() => textBox1.Text = "Running")); //same as above but anynemous method
+            textBox1.Text = "Running";// see, we can't access UI controls from different thread
+            Console.WriteLine("after backgroundWorker1_DoWork" + System.Threading.Thread.CurrentThread.ManagedThreadId);
            
         }
 
+        void method()
+        {
+            Console.WriteLine("method calls on" + System.Threading.Thread.CurrentThread.ManagedThreadId);
+            textBox1.Text = "Running";
+        }
+        void method1()
+        {
+            Console.WriteLine("method1 calls on" + System.Threading.Thread.CurrentThread.ManagedThreadId);
+            textBox1.Text = "Running";
+        }
       
         private void button2_Click(object sender, EventArgs e)
         {
@@ -70,6 +93,7 @@ namespace LearnCSharp
         {
             if (backgroundWorker1.IsBusy != true)
             {
+                Console.WriteLine("main thread"+ System.Threading.Thread.CurrentThread.ManagedThreadId);
                 backgroundWorker1.RunWorkerAsync();
             }
         }

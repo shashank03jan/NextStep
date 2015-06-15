@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
 using System.Data;
+using System.ServiceModel;
 
 
 
@@ -25,6 +26,10 @@ namespace ConsoleApplicationTest
 
             //Console.WriteLine(obj.GetValue());
             //Console.ReadKey();
+
+            ServiceHost host = new ServiceHost(typeof(ServiceReference1.IEmployee));
+            host.Open();
+            
 
         }
     }
