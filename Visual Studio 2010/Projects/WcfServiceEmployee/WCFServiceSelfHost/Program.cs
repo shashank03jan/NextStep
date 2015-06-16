@@ -10,7 +10,7 @@ namespace WCFServiceSelfHost
     {
         static void Main(string[] args)
         {
-            //WcfServiceEmployee
+            ////WcfServiceEmployee
             ServiceHost host = new ServiceHost(typeof(WcfServiceEmployee.Employee));
             host.Open();
             Console.WriteLine("WcfServiceEmployee service started...");
