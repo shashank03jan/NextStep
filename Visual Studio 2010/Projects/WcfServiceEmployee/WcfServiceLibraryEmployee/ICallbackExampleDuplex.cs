@@ -6,7 +6,7 @@ using System.ServiceModel;
 using System.Threading;
 using System.Runtime.Serialization;
 
-namespace WcfServiceEmployee
+namespace WcfServiceLibraryEmployee
 {
     [ServiceContract(CallbackContract = typeof(IClientCallBackExample))]
     public interface ICallbackExampleDuplex
