@@ -159,24 +159,18 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Concepts.txt" />
-    <None Include="Properties\DataSources\WcfServiceEmployee.Employee.datasource" />
     <None Include="Service References\ServiceReference1\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
     <None Include="Service References\ServiceReference1\configuration.svcinfo" />
     <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
-    <None Include="Service References\ServiceReference1\Employee.wsdl" />
-    <None Include="Service References\ServiceReference1\Service1.disco" />
-    <None Include="Service References\ServiceReference1\Service1.xsd">
+    <None Include="Service References\ServiceReference1\ICallbackExampleDuplex.disco" />
+    <None Include="Properties\DataSources\WcfServiceEmployee.Employee.datasource" />
+    <None Include="Service References\ServiceReference1\ICallbackExampleDuplex.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\Service11.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ServiceReference1\Service12.xsd">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="Service References\ServiceReference1\ImplementICallbackExampleDuplex.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

@@ -13,15 +13,15 @@ namespace LearnCSharp
 
         static void Main(string[] args)
         {
-            LinqToSQLEx.GetEmployee();
+            //LinqToSQLEx.GetEmployee();
             //IQueryable
-            ReverseString.CallMe();
+            //ReverseString.CallMe();
             //ComprareObjects.CallMe();
             //GCReference.Callme();
             //Linq.CallMe();
             //InheritenceExample.CallMe();
             //OverrideExample.CallMe();
-            DelegateExample.CallMe();
+            //DelegateExample.CallMe();
             //InheritenceOverloading.CallMe();
             //InheritenceOverriding.CallMe();
             //Parse_TryParse.CallMe();
@@ -38,12 +38,12 @@ namespace LearnCSharp
             //Console.WriteLine((ReverseString_Rec("shashank")));
 
             //
-            //CallWcfServiceExample.CallMe();
+            CallWcfServiceExample.CallMe();
             //DelegateBeginInvokeWinForms.CallMe();
 
             //Event_Delegate.CallMe();
             //LearnCSharpThreading.ThreadingExample.CallMe();
-            BackgroundWorkerClassExampleUsingWinForm.CallMe();
+            //BackgroundWorkerClassExampleUsingWinForm.CallMe();
             //SemaphoreMutexEx.CallMe();
             //DelegateAnonymousLambadaClosures.CallMe();
 

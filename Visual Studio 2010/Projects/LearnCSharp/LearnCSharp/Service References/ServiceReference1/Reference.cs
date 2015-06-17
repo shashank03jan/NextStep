@@ -12,70 +12,50 @@ namespace LearnCSharp.ServiceReference1 {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IEmployee")]
-    public interface IEmployee {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.ICallbackExampleDuplex", CallbackContract=typeof(LearnCSharp.ServiceReference1.ICallbackExampleDuplexCallback))]
+    public interface ICallbackExampleDuplex {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployee/InsertEmployee", ReplyAction="http://tempuri.org/IEmployee/InsertEmployeeResponse")]
-        void InsertEmployee(WcfServiceEmployee.Employee emp);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployee/GetEmployees", ReplyAction="http://tempuri.org/IEmployee/GetEmployeesResponse")]
-        WcfServiceEmployee.Employee[] GetEmployees();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployee/UpdateEmployee", ReplyAction="http://tempuri.org/IEmployee/UpdateEmployeeResponse")]
-        void UpdateEmployee(WcfServiceEmployee.Employee emp);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployee/DeleteEmployee", ReplyAction="http://tempuri.org/IEmployee/DeleteEmployeeResponse")]
-        void DeleteEmployee(int empId);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployee/GetValue", ReplyAction="http://tempuri.org/IEmployee/GetValueResponse")]
-        int GetValue();
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/ICallbackExampleDuplex/FireAndTrack")]
+        void FireAndTrack();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IEmployeeChannel : LearnCSharp.ServiceReference1.IEmployee, System.ServiceModel.IClientChannel {
+    public interface ICallbackExampleDuplexCallback {
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/ICallbackExampleDuplex/CallingClient")]
+        void CallingClient();
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public interface ICallbackExampleDuplexChannel : LearnCSharp.ServiceReference1.ICallbackExampleDuplex, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class EmployeeClient : System.ServiceModel.ClientBase<LearnCSharp.ServiceReference1.IEmployee>, LearnCSharp.ServiceReference1.IEmployee {
+    public partial class CallbackExampleDuplexClient : System.ServiceModel.DuplexClientBase<LearnCSharp.ServiceReference1.ICallbackExampleDuplex>, LearnCSharp.ServiceReference1.ICallbackExampleDuplex {
         
-        public EmployeeClient() {
+        public CallbackExampleDuplexClient(System.ServiceModel.InstanceContext callbackInstance) : 
+                base(callbackInstance) {
         }
         
-        public EmployeeClient(string endpointConfigurationName) : 
-                base(endpointConfigurationName) {
+        public CallbackExampleDuplexClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName) : 
+                base(callbackInstance, endpointConfigurationName) {
         }
         
-        public EmployeeClient(string endpointConfigurationName, string remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+        public CallbackExampleDuplexClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName, string remoteAddress) : 
+                base(callbackInstance, endpointConfigurationName, remoteAddress) {
         }
         
-        public EmployeeClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+        public CallbackExampleDuplexClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(callbackInstance, endpointConfigurationName, remoteAddress) {
         }
         
-        public EmployeeClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(binding, remoteAddress) {
+        public CallbackExampleDuplexClient(System.ServiceModel.InstanceContext callbackInstance, System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(callbackInstance, binding, remoteAddress) {
         }
         
-        public void InsertEmployee(WcfServiceEmployee.Employee emp) {
-            base.Channel.InsertEmployee(emp);
-        }
-        
-        public WcfServiceEmployee.Employee[] GetEmployees() {
-            return base.Channel.GetEmployees();
-        }
-        
-        public void UpdateEmployee(WcfServiceEmployee.Employee emp) {
-            base.Channel.UpdateEmployee(emp);
-        }
-        
-        public void DeleteEmployee(int empId) {
-            base.Channel.DeleteEmployee(empId);
-        }
-        
-        public int GetValue() {
-            return base.Channel.GetValue();
+        public void FireAndTrack() {
+            base.Channel.FireAndTrack();
         }
     }
 }

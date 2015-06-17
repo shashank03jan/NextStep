@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="08ba9dbb-10ba-455f-94ba-89a4c53c4552" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="63fbabbc-24d5-4b19-917b-e9e7a0ba0659" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <EnableDataBinding>true</EnableDataBinding>
@@ -18,14 +18,12 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:32365/Service1.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8732/WcfServiceLibraryEmployee/ICallbackExampleDuplex" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Service1.disco" MetadataType="Disco" ID="dcad49cb-261f-4c00-b56f-9923a809607e" SourceId="1" SourceUrl="http://localhost:32365/Service1.svc?disco" />
-    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="960eaff8-0ffb-42cb-8faf-b80a2cf7283d" SourceId="1" SourceUrl="http://localhost:32365/Service1.svc?xsd=xsd2" />
-    <MetadataFile FileName="Employee.wsdl" MetadataType="Wsdl" ID="cd9c48e8-1975-4e4d-bc2e-d84d40a1354f" SourceId="1" SourceUrl="http://localhost:32365/Service1.svc?wsdl" />
-    <MetadataFile FileName="Service11.xsd" MetadataType="Schema" ID="c77fda31-f750-4a0d-aa18-eba03ab17ced" SourceId="1" SourceUrl="http://localhost:32365/Service1.svc?xsd=xsd0" />
-    <MetadataFile FileName="Service12.xsd" MetadataType="Schema" ID="da9963a1-3b90-4100-83c2-bd2adb9168f8" SourceId="1" SourceUrl="http://localhost:32365/Service1.svc?xsd=xsd1" />
+    <MetadataFile FileName="ICallbackExampleDuplex.disco" MetadataType="Disco" ID="25494fb5-68db-45d4-8d2c-59e7a006e7dd" SourceId="1" SourceUrl="http://localhost:8732/WcfServiceLibraryEmployee/ICallbackExampleDuplex?disco" />
+    <MetadataFile FileName="ICallbackExampleDuplex.xsd" MetadataType="Schema" ID="f346dc7f-edaf-4489-b23c-ef55dbd30158" SourceId="1" SourceUrl="http://localhost:8732/WcfServiceLibraryEmployee/ICallbackExampleDuplex?xsd=xsd0" />
+    <MetadataFile FileName="ImplementICallbackExampleDuplex.wsdl" MetadataType="Wsdl" ID="2c9e75be-c455-4cdc-9cd2-b82203dfb61a" SourceId="1" SourceUrl="http://localhost:8732/WcfServiceLibraryEmployee/ICallbackExampleDuplex?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

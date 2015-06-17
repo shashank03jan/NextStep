@@ -48,17 +48,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WcfServiceEmployee\WcfServiceEmployee.csproj">
-      <Project>{C3D05E2A-C491-4ED0-B36D-A6519DC40D00}</Project>
-      <Name>WcfServiceEmployee</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WcfServiceLibraryEmployee\WcfServiceLibraryEmployee.csproj">
       <Project>{9E39F2C9-6EC4-4CA7-8DE9-458C1D0CC06E}</Project>
       <Name>WcfServiceLibraryEmployee</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App1.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

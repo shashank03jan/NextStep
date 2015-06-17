@@ -14,16 +14,13 @@ namespace LearnCSharp
             //ServiceReference1.EmployeeClient obj = new ServiceReference1.EmployeeClient();
             //Console.WriteLine(obj.GetValue());
 
+            ServiceReference1.
+           IAmCalledByServiceViaCallback v = new IAmCalledByServiceViaCallback();
+            InstanceContext instContext = new InstanceContext(v);
+            ServiceReference1.CallbackExampleDuplexClient obj = new ServiceReference1.CallbackExampleDuplexClient(instContext);
+            obj.FireAndTrack();
 
-            //IAmCalledByServiceViaCallback v = new IAmCalledByServiceViaCallback();
-            //InstanceContext icon = new InstanceContext(v);
-            ServiceReference1.EmployeeClient obj = new ServiceReference1.EmployeeClient();
-            //obj.FireAndTrack();
-
-            serviceCall();
-
-
-
+            //serviceCall();
         }
 
         private static void serviceCall()
@@ -43,11 +40,11 @@ namespace LearnCSharp
         }
         
     }
-    //class IAmCalledByServiceViaCallback : ServiceReference1.
-    //{
-    //    public void CallingClient()
-    //    {
-    //        Console.WriteLine("i am called by service via duplex contrat after sservice executed its method");
-    //    }
-    //}
+    class IAmCalledByServiceViaCallback : ServiceReference1.
+    {
+        public void CallingClient()
+        {
+            Console.WriteLine("i am called by service via duplex contrat after sservice executed its method");
+        }
+    }
 }
