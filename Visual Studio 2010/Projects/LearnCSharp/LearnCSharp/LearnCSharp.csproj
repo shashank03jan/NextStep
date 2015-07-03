@@ -165,7 +165,6 @@
     </None>
     <None Include="Service References\ServiceReference1\configuration.svcinfo" />
     <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
-    <None Include="Service References\ServiceReference1\ICallbackExampleDuplex.disco" />
     <None Include="Properties\DataSources\WcfServiceEmployee.Employee.datasource" />
     <None Include="Service References\ServiceReference1\ICallbackExampleDuplex.xsd">
       <SubType>Designer</SubType>

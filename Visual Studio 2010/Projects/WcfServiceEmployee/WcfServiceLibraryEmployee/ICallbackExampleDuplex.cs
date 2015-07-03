@@ -15,7 +15,7 @@ namespace WcfServiceLibraryEmployee
         void FireAndTrack();
     }
 
-      [DataContract]
+      
     public class ImplementICallbackExampleDuplex : ICallbackExampleDuplex
     {
         public void FireAndTrack()

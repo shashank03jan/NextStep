@@ -1,0 +1,7 @@
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\FToolUtility\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\FToolUtility\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\FToolUtility\ConsoleApplication1\bin\Debug\FToolUtility.dll
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\FToolUtility\ConsoleApplication1\bin\Debug\FToolUtility.pdb
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\FToolUtility\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\FToolUtility\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\FToolUtility\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

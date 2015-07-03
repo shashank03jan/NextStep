@@ -1,0 +1,4 @@
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\FToolUtility\FToolUtility\bin\Release\FToolUtility.dll
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\FToolUtility\FToolUtility\bin\Release\FToolUtility.pdb
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\FToolUtility\FToolUtility\obj\Release\FToolUtility.dll
+D:\VisualStudio\NextStep\Visual Studio 2010\Projects\FToolUtility\FToolUtility\obj\Release\FToolUtility.pdb
