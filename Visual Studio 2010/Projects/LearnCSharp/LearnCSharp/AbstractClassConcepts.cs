@@ -7,6 +7,7 @@ using System.Text;
 namespace LearnCSharp4
 
 {
+    //abstract
     //see how we can avoid implementation of an interface method in derive class using abstract
    abstract  class AbstractClassConcepts : IMyInterface 
     {
