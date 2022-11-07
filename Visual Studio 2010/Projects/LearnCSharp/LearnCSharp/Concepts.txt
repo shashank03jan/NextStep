@@ -12,3 +12,11 @@ how to prevent UI from freezing.
 1. backgroundworker class
 2. dispatcher
 3. calling methods asynchorneously
+
+
+thread affinity
+compisition vs inheritance
+solid pricinipla
+
+find 3rd last element of linkedlist
+int array contains 320910 ...place all zeros in right and nonzero numbers in left like 329100

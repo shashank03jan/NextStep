@@ -24,7 +24,7 @@ namespace LearnCSharpThreading
         {
             public void CreateNewThread()
             {
-                Thread th = new Thread(new ThreadStart(()=>{Console.WriteLine("HI from second thread with ThreadID= "+Thread.CurrentThread.ManagedThreadId.ToString());}));
+                Thread th = new Thread(new ThreadStart(()=>{Console.WriteLine("HI from second thread with ThreadID= "+Thread.CurrentThread.ManagedThreadId.ToString());}),);
                 th.Start();
             }
 

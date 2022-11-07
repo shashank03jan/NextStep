@@ -17,3 +17,4 @@ Visual Studio 2010/Projects/LearnCSharp/LearnCSharp.suo
 Visual Studio 2010/Projects/WcfServiceEmployee/WcfServiceEmployee.suo
 *.suo
 *.suo
+/Visual Studio 2010/Projects/LearnCSharp/.vs/LearnCSharp/v16/Server/sqlite3

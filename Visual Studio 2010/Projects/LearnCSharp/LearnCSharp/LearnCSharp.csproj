@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractClassConcepts.cs" />
+    <Compile Include="accessmodifier.cs" />
     <Compile Include="BackgroundWorkerClassExampleUsingWinForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,12 +197,6 @@
     <None Include="LinqToSQLExample.dbml.layout">
       <DependentUpon>LinqToSQLExample.dbml</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\WcfServiceEmployee\WcfServiceEmployee\WcfServiceEmployee.csproj">
-      <Project>{C3D05E2A-C491-4ED0-B36D-A6519DC40D00}</Project>
-      <Name>WcfServiceEmployee</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />

@@ -18,7 +18,7 @@ namespace LearnCSharp3
     {
         readonly public int i;
 
-
+        
         public MyClass2()
         {
             i = 5;
