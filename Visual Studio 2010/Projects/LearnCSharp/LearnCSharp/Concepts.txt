@@ -20,3 +20,5 @@ solid pricinipla
 
 find 3rd last element of linkedlist
 int array contains 320910 ...place all zeros in right and nonzero numbers in left like 329100
+
+in .net core , how can we do dependency injection apart from unity and autofac
